@@ -1,14 +1,13 @@
 .wrapper {
   display: flex;
-  flex-direction: column;//chuyển item thành chiều dọc
-  align-items: center;//căn giữa theo chiều dọc
+  flex-direction: column; //chuyển item thành chiều dọc
+  align-items: center; //căn giữa theo chiều dọc
 }
 .container {
-  width: var(--default-layout-width, 1150px);//đặt biến
+  width: var(--default-layout-width, 1150px); //đặt biến
   height: 1000px;
-  background-color: rgb(248, 148, 148);
   display: flex;
 }
 .content {
-  flex: 1;//để item chiếm hết khôn gian còn lại
+  flex: 1; //để item chiếm hết khôn gian còn lại
 }
