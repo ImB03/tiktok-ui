@@ -5,7 +5,7 @@
   --primary: #fe2c55;
   --black: black;
   --text-color: #333;
-  --white:white;
+  --white: white;
 
   --default-layout-header-height: 60px;
   --default-layout-width: 1150px;
@@ -37,6 +37,6 @@ input,
 }
 
 a[href] {
-  color: var(--text-color);
+  color: black;
   text-decoration: none;
 }

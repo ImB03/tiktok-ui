@@ -3,6 +3,7 @@ import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
+import FeedBack from '~/pages/FeedBack';
 import { HeaderOnly } from '~/components/Layouts';
 
 const publicRoutes = [
@@ -11,6 +12,7 @@ const publicRoutes = [
   { path: '/profile', components: Profile },
   { path: '/upload', components: Upload, layout: HeaderOnly },
   { path: '/search', components: Search, layout: null },
+  { path: '/feedback', components: FeedBack, layout: null },
 ];
 const privateRoutes = [];
 export { publicRoutes, privateRoutes };
