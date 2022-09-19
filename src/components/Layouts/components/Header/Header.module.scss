@@ -113,3 +113,17 @@
   padding: 4px 8px;
   cursor: pointer;
 }
+.action-btn {
+  font-size: 2.2rem;
+  color: #161823;
+  background-color: transparent;
+  padding: 4px 10px;
+}
+.user-avata {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 12px;
+  cursor: pointer;
+}
