@@ -15,6 +15,7 @@
   height: 100%;
   width: var(--default-layout-width, 1150px); //đặt biến
   display: flex;
+  padding: 0 var(--default-layout-horizontal-spacer);
   align-items: center; //căn giữa theo chiều dọc
   justify-content: space-between; //căn điều các item nhưng sát border
 }
@@ -61,7 +62,7 @@
   }
 }
 
-.search-tittle {
+.search-title {
   font: size 1.4rem;
   padding: 5px 12px;
   font-weight: 600;
@@ -110,5 +111,5 @@
   margin-left: 28px;
   background-color: transparent;
   padding: 4px 8px;
+  cursor: pointer;
 }
-
